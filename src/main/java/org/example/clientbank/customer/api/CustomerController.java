@@ -47,6 +47,7 @@ public class CustomerController {
         }
     }
 
+
     @GetMapping
     @JsonView(View.Admin.class)
     public ResponseEntity<List<ResponseCustomerDto>> findAll() {
